@@ -127,3 +127,43 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .nav_menu {
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 80%;
+        height: 100%;
+        padding: 2rem;
+        background-color: var(--white-color);
+        transition: .5;
+    }
+}
+
+.nav_item {
+    margin-bottom: var(--mb-4);
+}
+
+.nav_link {
+    color: var(--dark-color);
+    font-weight: var(--font-semi);
+}
+
+.nav_link:hover {
+    color: var(--first-color);
+}
+
+.nav_logo {
+    font-weight: var(--font-bold);
+}
+
+.nav_cart {
+    font-size: 1.5rem;
+    margin-right: var(--mb-2);
+}
+
+.nav_toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
