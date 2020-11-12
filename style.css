@@ -175,3 +175,28 @@ img {
 .active {
     color: var(--first-color)
 }
+
+.home {
+    background-color: var(--gray-color);
+}
+
+.home_container {
+    height: calc(100vh - var(--header-height));
+}
+
+.home_data {
+    padding-top: 6rem;
+}
+
+.home_title {
+    align-self: center;
+    font-size: var(--big-font-size);
+    line-height: 1;
+    letter-spacing: .5rem;
+    margin-bottom: 4rem;
+}
+
+.home_title span {
+    font-size: var(--h1-font-size);
+}
+
