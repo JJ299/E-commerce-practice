@@ -224,3 +224,16 @@ img {
 .button:hover {
   background-color: var(--first-color-alt);
 }
+
+.collection_container {
+  row-gap: 2rem;
+}
+
+.collection_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  background-color: var(--gray-color);
+  transition: 0.3s;
+}
