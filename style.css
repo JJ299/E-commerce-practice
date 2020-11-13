@@ -203,3 +203,24 @@ img {
 .home_title span {
   font-size: var(--h1-font-size);
 }
+
+.home_img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 260px;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi);
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
