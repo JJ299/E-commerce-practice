@@ -237,3 +237,33 @@ img {
   background-color: var(--gray-color);
   transition: 0.3s;
 }
+
+.collection_box:hover {
+  transform: translateY(-0.5rem);
+}
+
+.collection_img {
+  width: 100px;
+}
+
+.collection_title {
+  font-size: var(--h1-font-size);
+  line-height: 1.2;
+  margin-bottom: var(--mb-2);
+  text-transform: uppercase;
+  font-weight: var(--font-semi);
+}
+
+.collection_subtitle {
+  font-size: var(--h2-font-size);
+  color: var(--dark-color-light);
+}
+
+.collection_view {
+  font-size: var(--small-font-size);
+  color: var(--dark-color-light);
+}
+
+.collection_view:hover {
+  text-decoration: underline;
+}
