@@ -267,3 +267,22 @@ img {
 .collection_view:hover {
   text-decoration: underline;
 }
+
+.featured_container {
+  row-gap: 2rem;
+}
+
+.featured_product {
+  transition: 0.3s;
+}
+
+.featured_product:hover {
+  transform: translateY(-0.5rem);
+}
+
+.featured_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-color);
+}
