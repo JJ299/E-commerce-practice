@@ -286,3 +286,28 @@ img {
   justify-content: center;
   background-color: var(--gray-color);
 }
+
+.featured_new {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 0.3rem 0.75rem;
+  font-size: var(--small-font-size);
+}
+
+.featured_data {
+  text-align: center;
+}
+
+.featured_name {
+  margin-bottom: var(--mb-2);
+  text-transform: uppercase;
+  font-size: var(--normal-font-size);
+}
+
+.featured_preci {
+  color: var(--dark-color-light);
+  font-weight: var(--font-semi);
+}
