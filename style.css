@@ -399,6 +399,7 @@ img {
 .sponsors_logo img {
   width: 80px;
   filter: opacity(70%);
+  transition: 0.3s;
 }
 
 .sponsors_logo img:hover {
