@@ -362,3 +362,25 @@ img {
   background: rgba(229, 89, 71, 0.2);
   transition: 0.3s;
 }
+
+.newsletter {
+  text-align: center;
+}
+
+.newsletter_description {
+  margin-bottom: var(--mb-2);
+  font-size: var(--small-font-size);
+  color: var(--dark-color-light);
+}
+
+.newsletter_form {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+}
+
+.newsletter_input {
+  outline: none;
+  border: none;
+  background-color: var(--gray-color);
+  padding: 0 1 rem;
+}
