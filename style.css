@@ -427,3 +427,25 @@ img {
 .footer_store {
   width: 100px;
 }
+
+.footer_link,
+.footer_social {
+  color: var(--dark-color-light);
+}
+
+.footer_link:hover {
+  text-decoration: underline;
+}
+
+.footer_social {
+  font-size: 1.3rem;
+  margin-right: var(--mb-1);
+}
+
+.footer_copy {
+  border-top: 1px solid var(--dark-color-light);
+  padding-top: 3rem;
+  text-align: center;
+  color: var(--dark-color-light);
+  font-size: var(--small-font-size);
+}
