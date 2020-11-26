@@ -532,3 +532,18 @@ img {
     padding: 2rem 0;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home_data {
+    padding-left: 7rem;
+  }
+
+  .home_img {
+    right: 15%;
+  }
+}
